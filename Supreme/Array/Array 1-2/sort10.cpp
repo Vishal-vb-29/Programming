@@ -20,10 +20,5 @@ end--;
 }
 }
 for( auto val : arr) cout<<val<<" ";
-
-
-
-
-
 return 0;
 }

@@ -4,9 +4,9 @@ using namespace std;
 int main()
 {
 int arr[]={1,3,5,7,7,9};
-int brr[]={2,4,6,5,3,8};
-int sizea=5,flag;
-int sizeb=4;
+int brr[]={2,4,6,5,3,7,7,8};
+int sizea=6,flag;
+int sizeb=8;
 vector<int> ans;
 for(int i=0;i<sizea;i++) ans.push_back(arr[i]);
 for(int j=0;j<sizeb;j++)
