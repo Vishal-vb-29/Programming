@@ -1,5 +1,8 @@
 #include<iostream>
 #include<vector>
+
+// input a={1,2,1,2,4,3,3} output = 4
+
 using namespace std;
 int findunique(vector<int>);
 int main()
