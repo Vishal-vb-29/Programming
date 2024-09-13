@@ -1,0 +1,45 @@
+Vectors : 
+Array like but it is a dynamic(resize) in nature (i.e. dont have a fixed size, it increases as needed )
+
+STL : Standard Template Library
+Tool Box : already have a Implementation of data structures.
+
+STL Containers : Vector, Queue, Stack, Set.
+
+Vector Syntax
+Must have to #includ e<vector>
+
+vector<int> vec; //Size is 0;
+vector<int> vec={1,2,3};
+vector<int> vec(3,0);
+
+for each loop in vector:
+
+for(int val:vec) cout<<val<<endl;
+
+Vector Functions :
+# size
+# push_back
+# pop_back
+# front
+# back
+# at
+# capacity
+
+
+Static v/s Dynamic Allocation
+
+Static Allocation : allocation done at compile time. 
+                    allocation is inside stack memory    
+
+Dynamic Allocation : allocation done at runtime.
+                     allocation is inside heap memory.
+
+
+size v/s capacity
+size : no of elements.
+capacity : total no of element that can be stored.
+
+
+LeetCode Problem
+136 : Single Number

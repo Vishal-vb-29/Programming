@@ -1,0 +1,31 @@
+What we learnt
+
+Bitwise operator
+    1 AND (&)
+    2 OR (|)
+    3 XOR (^)
+
+Operator Precedence 
+    unary operator  (R - L)
+    multiplication, division, remainder  (L - R)
+    Addition, subtraction 
+    Less than, greater than, less than equalto, greater than equal to
+    equal to equal to ==, !=
+    &&
+    ||
+    = assignment operator   (R - L)
+
+Scope 
+    1 Local
+    2 Global
+
+DataType Modifier
+    1 long
+    2 short
+    3 long long
+    4 signed
+    5 unsigned
+
+
+
+Homework 

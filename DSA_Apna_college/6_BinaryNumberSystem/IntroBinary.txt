@@ -1,0 +1,46 @@
+//Binary Number System
+
+A binary number system is a number system that is used to represent various numbers using only two symbols “0” and “1”. 
+
+The word binary is derived from the word “bi” which means two. Hence, this number system is called the Binary Number System. Thus, the binary number system is a system that has only two symbols.
+
+//Types of Number System
+
+There are generally various types of number systems and among them the four major ones are,
+
+Binary Number System (Number system with Base 2)
+Octal Number System (Number system with Base 8)
+Decimal Number System (Number system with Base 10)
+Hexadecimal Number System (Number system with Base 16)
+
+In a binary number system, we represent the number as,
+
+(11001)2
+
+
+// Binary to Decimal Conversion
+
+A binary number is converted into a decimal number by multiplying each digit of the binary number by the power of either 1 or 0 to the corresponding power of 2. Let us consider that a binary number has n digits, B = an-1…a3a2a1a0. Now, the corresponding decimal number is given as
+
+D = (an-1 × 2n-1) +…+(a3 × 23) + (a2 × 22) + (a1 × 21) + (a0 × 20)
+
+
+Convert (10011)2 to a decimal number.
+
+Solution:
+
+The given binary number is (10011)2.
+
+(10011)2 = (1 × 24) + (0 × 23) + (0 × 22) + (1 × 21) + (1 × 20)
+
+= 16 + 0 + 0 + 2 + 1 = (19)10
+
+Hence, the binary number (10011)2 is expressed as (19)10.
+
+// Decimal to Binary Conversion
+
+A decimal number is converted into a binary number by dividing the given decimal number by 2 continuously until we get the quotient as 1, and we write the numbers from downwards to upwards.
+
+Let us go through an example to understand the concept better.
+
+Example: Convert (28)10 into a binary number.

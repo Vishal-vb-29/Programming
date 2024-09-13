@@ -1,0 +1,30 @@
+Arrays :
+
+1st Data Strucutre, used to store data in an efficient way.
+only store same type of data.
+Contiguous memory.
+linear data sructure.
+indexing is start from 0.
+
+
+Creation of Array:
+<<< int marks[5];                   without initialization
+<<< int marks[5]={12,15,18,17,19};  with initialization.
+
+Accesssign an elemenet in array.
+<<< cout<<marks[2]<<endl;  18
+<<< cout<marks[4]<<endl;   19
+<<< cout<<marks[6]<<endl;      error past end of the array (out of bound)
+<<< cout<<marks[-1]<<endl      error before beginning of the array (out of bound)
+
+Size of an array 
+given in variable 
+or using inbuilt function 
+int sz = sizeof(marks)/sizeof(int);
+
+
+Pass by Reference
+giving a address of any variable to functions using parameters. 
+changes are reflected in original array or variable as it is not a copy.
+
+
