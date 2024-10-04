@@ -1,0 +1,1 @@
+fortuner.setBrand("fortuner");
