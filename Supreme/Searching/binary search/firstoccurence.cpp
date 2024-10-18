@@ -33,6 +33,6 @@ cin>>arr[i];
 cout<<"Enter target:";
 cin>>target;
 int fo=firstoccurence(arr,target);
-cout<<fo;
+cout<<"The targeted value is at : "<<fo;
 return 0;
 }
